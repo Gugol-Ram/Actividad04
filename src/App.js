@@ -18,12 +18,16 @@ function App() {
   ];
   return (
     <div className="App">
-      {/* <header className="App-header">
+      <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-      </header> */}
+      </header>
       <h1>Aplicacion de Encuestas</h1>
 
       <Encuestas encuestas={encuestas} />
+
+      <footer className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+      </footer>
     </div>
   );
 }
